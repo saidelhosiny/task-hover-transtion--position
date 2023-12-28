@@ -1,0 +1,86 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.caption{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.caption img{
+    width: 100%;
+}
+.logo{
+   background-color: rgba(0, 0, 255, 0.363);
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   color: white;
+   text-align: center;
+   opacity: 0;
+   transition:2s all ;
+   -webkit-transition:2s all ;
+   -moz-transition:2s all ;
+   -ms-transition:2s all ;
+   -o-transition:2s all ;
+}
+h2{
+    background-color: blueviolet;
+    padding: 20px;
+    transform: translateX(110%);
+    -webkit-transform: translateX(110%);
+    -moz-transform: translateX(110%);
+    -ms-transform: translateX(110%);
+    -o-transform: translateX(110%);
+
+}
+p{
+    margin-top: 30px;
+    transform: translateX(110%);
+    -webkit-transform: translateX(110%);
+    -moz-transform: translateX(110%);
+    -ms-transform: translateX(110%);
+    -o-transform: translateX(110%);
+    transition: 3s 5s all;
+    -webkit-transition: 3s 5s all;
+    -moz-transition: 3s 5s all;
+    -ms-transition: 3s 5s all;
+    -o-transition: 3s 5s all;
+}
+
+.caption:hover .logo{
+    opacity: 1;
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
+.caption:hover h2   {
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    transition: 3s 2s all;
+    -webkit-transition: 3s 2s all;
+    -moz-transition: 3s 2s all;
+    -ms-transition: 3s 2s all;
+    -o-transition: 3s 2s all;
+}
+.caption:hover p  {
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    transition: 3s 5s all;
+    -webkit-transition: 3s 5s all;
+    -moz-transition: 3s 5s all;
+    -ms-transition: 3s 5s all;
+    -o-transition: 3s 5s all;
+}
